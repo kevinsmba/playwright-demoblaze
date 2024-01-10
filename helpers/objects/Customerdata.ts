@@ -6,3 +6,10 @@ export const JohnInfo: CustomerData = {
     country: 'Doe Land',
     age: 26
 }
+
+export const JaneInfo: CustomerData = {
+    name: 'Jane Doe',
+    city: 'Doe city',
+    country: 'Doe Land',
+    age: 24
+}
