@@ -6,7 +6,7 @@ import { MenuOptions } from '../helpers/enums/MenuOpt';
 test('Add a product to the cart from the Homepage', async ({ page }) => {
 
     await test.step('Given I visit the DemoBlaze homepage', async () => {
-        await page.goto('https://www.demoblaze.com/');
+        await page.goto('');
     })
     await test.step('When the Samsung galaxy s6 product is selected', async () => {
         //page.on('dialog', async dialog => console.log(dialog.message()));

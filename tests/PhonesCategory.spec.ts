@@ -6,7 +6,7 @@ test('Elements verification in the Homepage', async ({ page }) => {
   const locator = page.locator('#tbodyid > div');
 
   await test.step('Given I visit the DemoBlaze homepage', async () => {
-    await page.goto('https://www.demoblaze.com/');
+    await page.goto('');
   })
   await test.step('When The Phones page list is clicked', async () => {
     await page.getByRole('link', { name: 'Phones' }).click();
