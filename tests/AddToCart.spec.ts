@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { Products } from '../helpers/enums/products';
 import { MenuOptions } from '../helpers/enums/MenuOpt';
+import { Products} from '../helpers/enums/Products';
 
 
 test('Add a product to the cart from the Homepage', async ({ page }) => {
