@@ -13,3 +13,10 @@ export const JaneInfo: CustomerData = {
     country: 'Doe Land',
     age: 24
 }
+
+export const FalseInfo: CustomerData = {
+    name: '12345 John Doe',
+    city: 'Doe city',
+    country: 'Doe Land',
+    age: 26
+}
